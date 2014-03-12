@@ -2,7 +2,7 @@ require 'logger'
 
 module QueueWrangler
   module Wrangler
-    attr_reader :queue
+    attr_accessor :queue
 
     #  Initializes the queue and performs other prepatory work required before
     #  queue processing may begin.
